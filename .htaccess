@@ -1,0 +1,13 @@
+# Page d'erreur
+ErrorDocument 404 https://www.folkerer.com/Landing/404.php
+# IndexIgnore *
+
+# Rend les dossiers privées
+# RewriteEngine on
+# RewriteRule ^scripts/?$ - [F,L]
+# RewriteRule ^public/?$ - [F,L]
+# RewriteRule ^privee/?$ - [F,L]
+# RewriteRule ^js/?$ - [F,L]
+# RewriteRule ^images/(.*)$ - [F,L]
+# RewriteRule ^css/?$ - [F,L]
+# RewriteRule ^assets/?$ - [F,L]

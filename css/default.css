@@ -1,0 +1,54 @@
+/* Page principale  */
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+/* Nav barre secondaire */
+.navbarCenter {
+	text-align : center;
+    background : #81c266;
+	color: #fff;
+}
+
+/* Responsive picture */
+.responsive {
+  width: 100%;
+  height: auto;
+  position : sticky;
+}
+
+.relative{
+	position: static;
+}
+
+
+/* Bloc */
+.blocCentral{
+	background-color : #39c5d6;
+}
+
+.partieGauche{
+	margin-left : 1%;
+	width : 32%;
+}
+
+.partieCentrale{
+	margin-left : 1%;
+	width : 32%;
+}
+
+.partieDroite{
+	margin-left : 1%;
+	width : 32%;
+}
+
+.topDesti{
+	width : auto;
+}
+
+/* Voir et masquer */
+.filter-container > div {
+  display: none;
+}
